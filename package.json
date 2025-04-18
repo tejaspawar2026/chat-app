@@ -1,13 +1,11 @@
 {
-  "homepage": "http://tejaspawar2026.github.io/repo-name",
   "name": "chat-app",
   "version": "1.0.0",
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "gh-pages -d ."
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
@@ -15,7 +13,7 @@
   "description": "",
   "dependencies": {
     "express": "^5.1.0",
-    "gh-pages": "^6.3.0",
+    "nodemon": "^3.1.9",
     "socket.io": "^4.8.1"
   }
 }
